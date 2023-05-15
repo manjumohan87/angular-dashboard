@@ -1,0 +1,17 @@
+<div  class="card">
+    <div class="card-head">
+        <div class="card-icon" [ngClass]="bg">
+            <mat-icon class="icon">{{icon}}</mat-icon>
+        </div>
+        <p>{{description}}</p>
+        
+        <h2>{{count}}</h2>
+    </div>
+    <mat-divider></mat-divider>
+    <div class="card-content">
+        <div [ngClass]="bgsmicon">
+            <mat-icon class="icon">{{smicon}}</mat-icon>
+        </div>
+        <span>{{info}}</span>
+    </div>
+</div>

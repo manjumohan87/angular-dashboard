@@ -1,0 +1,50 @@
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.chart-card-sec {
+    background: #fff;
+    padding: 15px;
+    border-radius: 11px;
+    height: 100%;
+    box-shadow: 0 4px 20px 0 rgba(0, 0, 0, .14), 0 7px 10px -5px rgba(76, 175, 80, .4);
+  }
+  .mat-mdc-card{
+    border-radius: 11px;
+  }
+
+  .card-area .mat-mdc-card.mdc-card{
+    width: 100%;  
+    border: none;
+    box-shadow: none;
+  }
+
+  .card-area .card{
+    border: none !important;
+    box-shadow: none;
+  }
+  .chart-card-sec .card{
+    border: none !important;
+  }
+
+ .card{
+    border: none !important;
+  }
+
+  .tab-outer {
+    width: 100%;
+    border-radius: 11px;
+    background: #fff;
+    box-shadow: 0 4px 20px 0 rgba(0, 0, 0, .14), 0 7px 10px -5px rgba(76, 175, 80, .4);
+  }
+
+  .tab-outer .mat-mdc-tab.mdc-tab{
+    background: linear-gradient(60deg, #ffa726, #fb8c00) !important;
+  }
+  .tab-outer .mat-mdc-tab-link:nth-child(2) {
+    background: linear-gradient(60deg, #66bb6a, #43a047);
+  }
+  .tab-outer #mat-tab-label-0-2 {
+    background: linear-gradient(60deg, #ef5350, #e53935);
+  }

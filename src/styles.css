@@ -1,1 +1,27 @@
 /* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; color: #3c4858;font-weight: 300;}
+.mat-body p, .mat-body-2 p, .mat-typography .mat-body p, .mat-typography .mat-body-2 p, .mat-typography p {
+    margin: 0;
+  }
+
+  .title-div {
+    width: 100%;
+    max-width: 93%;
+    border-radius: 4px;
+    background: linear-gradient(60deg,#ffa726,#fb8c00);
+    margin: 0 auto;
+    position: relative;
+    top: -27px;
+    padding: 15px 20px;
+  }
+  .title-div  h2{
+    font-weight: 300;
+    color: #fff;
+    margin: 0px;
+  }
+  .title-div span{
+    color: #fff;
+    font-weight: 300;
+  }

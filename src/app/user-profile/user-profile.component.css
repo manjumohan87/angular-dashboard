@@ -1,0 +1,135 @@
+:host {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+mat-label {
+    color: red;
+}
+
+.form-div input {
+    width: 100% !important;
+    height: 40px;
+    padding: 5px 10px;
+    border: none;
+    border-bottom: 1px solid #3c4858;
+}
+
+.form-div textarea {
+    width: 100% !important;
+    height: 150px;
+    padding: 10px 10px;
+    border: none;
+    border-bottom: 1px solid #3c4858;
+}
+
+.form-div {
+    width: 100%;
+}
+
+.form-outer {
+    width: 100%;
+    background: #fff;
+    border-radius: 11px;
+    box-shadow: 0px 5px 5px -3px rgba(0, 0, 0, 0.2), 0px 8px 10px 1px rgba(0, 0, 0, 0.14), 0px 3px 14px 2px rgba(0, 0, 0, 0.12);
+
+}
+
+.form-outer .title-div {
+    background: linear-gradient(60deg, #ef5350, #e53935);
+}
+
+.single-row.block1 .mat-mdc-form-field {
+    width: 33.33%;
+}
+
+.single-row.block2 .mat-mdc-form-field {
+    width: 33.33%;
+}
+
+.single-row.fullwidth .mat-mdc-form-field {
+    width: 100%;
+}
+
+.mat-mdc-form-field {
+    width: 50%;
+}
+
+.single-row.text_area .mat-mdc-form-field {
+    width: 100%;
+}
+
+.form-outer .mat-mdc-text-field-wrapper:not(.mdc-text-field--outlined) .mat-mdc-form-field-infix {
+    padding-top: 4px !important;
+    ;
+    padding-bottom: 4px !important;
+
+}
+
+.form-outer .mat-mdc-form-field-bottom-align::before {
+    content: none !important;
+}
+
+.profile-card img {
+    width: 100px;
+    height: 100px;
+}
+
+.btn-div {
+    text-align: right;
+    padding: 5px 16px 20px;
+}
+
+.btn-div button {
+    font-size: 12px;
+    font-weight: 400;
+    color: #fff;
+    background-color: #f44336;
+    border-color: #f44336;
+    box-shadow: 0 2px 2px 0 rgba(244, 67, 54, .14), 0 3px 1px -2px rgba(244, 67, 54, .2), 0 1px 5px 0 rgba(244, 67, 54, .12);
+}
+
+
+.profile-card {
+    padding: 0 0 25px;
+    box-shadow: 0px 5px 5px -3px rgba(0, 0, 0, 0.2), 0px 8px 10px 1px rgba(0, 0, 0, 0.14), 0px 3px 14px 2px rgba(0, 0, 0, 0.12);
+    background-color: #fff;
+    border-radius: 11px;
+    text-align: center;
+}
+
+.profile-card img {
+    border-radius: 100%;
+    margin: -30px 0 0;
+}
+
+.card {
+    border: none;
+}
+
+.card-content {
+    padding: 15px 20px;
+}
+
+.card-head {
+    padding: 15px 0 0;
+}
+
+.card-head span {
+    color: #999 !important;
+}
+
+.card-head h2 {
+    font-weight: 300;
+    margin: 0;
+}
+
+.profile-card button {
+    border-radius: 30px;
+    font-weight: 400;
+    font-size: 12px;
+    background-color: #f44336;
+    border-color: #f44336;
+    box-shadow: 0 2px 2px 0 rgba(244, 67, 54, .14), 0 3px 1px -2px rgba(244, 67, 54, .2), 0 1px 5px 0 rgba(244, 67, 54, .12);
+}

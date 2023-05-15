@@ -1,0 +1,103 @@
+<div class="main-content">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <!-- card -->
+                <div class="cards">
+                    <mat-card>
+                        <app-card bg="orange" icon="content_copy" description="Used Space" count="49/50 GB"
+                            bgsmicon="bg1" info="Get More Space..." smicon="warning"></app-card>
+                    </mat-card>
+                    <mat-card>
+                        <app-card bg="green" icon="store" description="Revenue" count="$34,245" bgsmicon="bggrey"
+                            info=" Last 24 Hours " smicon="date_range"></app-card>
+                    </mat-card>
+                    <mat-card>
+                        <app-card bg="red" icon="info_outline" description="Fixed Issues" count="75" bgsmicon="bggrey"
+                            info="Tracked from Github " smicon="local_offer"></app-card>
+                    </mat-card>
+                    <mat-card>
+                        <app-card bg="blue" icon="" description="Followers" count="+245" bgsmicon="bggrey"
+                            info="Just Updated " smicon="update"></app-card>
+                    </mat-card>
+                </div>
+            </div>
+        </div>
+
+        <div class="row mt-3">
+            <div class="col-md-6">
+                <div class="chart-card-sec">
+                    <div class="chart-area">
+                        <app-area-chart-series></app-area-chart-series>
+
+                    </div>
+
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="chart-card-sec">
+                    <div class="chart-area">
+                        <app-area-chart-bar></app-area-chart-bar>
+
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+
+
+        <div class="row mt-3">
+            <div class="col-md-6">
+
+                <div class="tab-outer  mt-5">
+                    <app-table></app-table>
+
+
+                </div>
+
+            </div>
+            <div class="col-md-6">
+                <div class="tab-outer mt-5">
+
+                    <mat-tab-group dynamicHeight>
+                        <mat-tab label="BUGS">
+                            <mat-list role="list">
+                                <mat-list-item role="listitem">Sign contract for "What are conference organizers afraid
+                                    of?"</mat-list-item>
+                                <mat-list-item role="listitem">Lines From Great Russian Literature? Or E-mails From My
+                                    Boss?</mat-list-item>
+                                <mat-list-item role="listitem">Flooded: One year later, assessing what was lost and what
+                                    was found when a ravaging rain swept through metro Detroit </mat-list-item>
+                                <mat-list-item role="listitem">Create 4 Invisible User Experiences you Never Knew
+                                    About</mat-list-item>
+                            </mat-list>
+
+                        </mat-tab>
+                        <mat-tab label="WEBSITE">
+                            <mat-list role="list">
+                                <mat-list-item role="listitem">Flooded: One year later, assessing what was lost and what
+                                    was found when a ravaging rain swept through metro Detroit </mat-list-item>
+                                <mat-list-item role="listitem">Sign contract for "What are conference organizers afraid
+                                    of?"</mat-list-item>
+                            </mat-list>
+
+                        </mat-tab>
+                        <mat-tab label="SERVER">
+                            <mat-list role="list">
+                                <mat-list-item role="listitem">Lines From Great Russian Literature? Or E-mails From My
+                                    Boss?</mat-list-item>
+                                <mat-list-item role="listitem">Flooded: One year later, assessing what was lost and what
+                                    was found when a ravaging rain swept through metro Detroit</mat-list-item>
+                                <mat-list-item role="listitem">Sign contract for "What are conference organizers afraid
+                                    of?"</mat-list-item>
+                            </mat-list>
+
+                        </mat-tab>
+                    </mat-tab-group>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
